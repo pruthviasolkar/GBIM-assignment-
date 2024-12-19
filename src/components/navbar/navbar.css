@@ -1,0 +1,99 @@
+.topbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color:var(--primary-color);
+    background: linear-gradient(to right, #2cdc90 20%, #401444 90%);
+    color: #ffffff;
+}
+.topbar p{
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+.topbarbtn{
+    background-color: #ffffff;
+    border-radius: 20px;
+    color:var(--secondary-color);
+    padding-block: 2px;
+    padding-inline: 20px;
+    font-size: 0.8rem;
+    height: 26px;
+    border: none;
+    align-self: center;
+    font-weight: bold;
+}
+.mainnavbar{
+    display: flex;
+    padding-block: 25px;
+    padding-inline: 25px;
+    justify-content:space-between ;
+
+}
+.linksul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+
+}
+.allrightbtns{
+    display: flex;
+    gap: 10px;
+}
+.linksul li{
+    list-style-type:none;
+    
+}
+.Logo {
+    width: 12%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.Logo img{
+    width: 100%;
+    align-self: center;
+}
+.linksul li :hover{
+ border-bottom: 3px solid #2cdc90;
+ padding-bottom: 5px;
+}
+.headcontact{
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.signinbtn{
+    background-color:var(--secondary-color);
+    border-radius: 20px;
+    color:#ffffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    padding-inline: 30px;
+    font-size: 0.8rem;
+    height: 36px;
+    border: none;
+    align-self: center;
+    font-weight: bold;
+}
+.loginbtn{
+    background-color:var(--primary-color);
+    border-radius: 20px;
+    color:#ffffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+    padding-inline: 30px;
+    font-size: 0.8rem;
+    height: 36px;
+    cursor: pointer;
+    border: none;
+    align-self: center;
+    font-weight: bold;
+}
+.loginbtn:hover,.signinbtn:hover{
+    transition: all 0.2s ease;
+    transform: translateY(2px);
+
+}
+ 
