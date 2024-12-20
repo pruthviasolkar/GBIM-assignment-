@@ -12,7 +12,7 @@ const Herosection = () => {
             <input type="text" placeholder='Phone Number' />
             <input type="text" placeholder='Email Address' />
             <textarea placeholder="Message" rows="4" cols="50"></textarea>
-            <label class="checkbox-button">
+            <label class="checkbox-button ">
               <input type="checkbox" />
               <span className='checkboxspan'>I agree to all <span className='tc'>terms & conditions</span></span>
             </label>
