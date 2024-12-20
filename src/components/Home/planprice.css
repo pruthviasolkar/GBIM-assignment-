@@ -1,6 +1,6 @@
 .headplan{
      text-align: center;
-     margin-top: 100px;
+     margin-top: 70px;
 }
 .headplan h2{
     font-size: 45px;
@@ -145,10 +145,11 @@
     margin: 0;
     padding: 0;
 }
+
 .planlist{
     display: flex;
     margin: 40px;
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: center;
     gap: 30px;
     
@@ -255,6 +256,37 @@
     margin-bottom: 10px;
     justify-content: center;
 }
-.thirdcard{
-      
+
+.annual{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+     
+    padding-right: 50px;
+    margin-bottom: 0;
+}
+.annualshine{
+    width: 20px;
+    align-self: center;
+}
+.annual h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 5px;
+}
+.annual span{
+    color: var(--primary-color);
+}
+.annualarc{
+    margin-top: -5px;
+    width: 140px;
+    margin-right: 50px;
+
+}
+.mainannual{
+    display: flex;
+
+    flex-direction: column;
+    align-items: flex-end;
+
 }

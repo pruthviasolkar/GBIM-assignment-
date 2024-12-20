@@ -1,6 +1,7 @@
 import React from 'react'
 import './planprice.css'
 import ToggleSwitch from './togglebtn'
+import AnnualToggleSwitch from './annualtoggle'
 const Planprice = () => {
     return (
         <div>
@@ -21,7 +22,9 @@ const Planprice = () => {
                 <div><button className='btnplan2 '>Social and ads  </button></div>
                 <div><button className='btnplan3'>Digital</button></div>
             </div>
-
+<div className='mainannual'><div className='annual'><AnnualToggleSwitch/><h4>Pay Anually and <span>save upto 20%</span></h4><img className='annualshine' src="/assets/shines (1).svg" alt="" /></div>
+<img className='annualarc' src="/assets/purplegreenarc.svg" alt="" /></div>
+          
 
             <div className='planlist'>
                 <div className="planlistcard"><div className='headplancard'><h3>Free Digital</h3><p>For Professional Use</p></div>
