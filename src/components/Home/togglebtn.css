@@ -1,13 +1,14 @@
 /* Container styling */
 .toggle-container {
     position: relative;
-    width: 200px;
-    height: 50px;
-    border: 2px solid #7c6999;
-    border-radius: 25px;
+    width: 350px;
+    height: 60px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-inline: 30px;
     cursor: pointer;
     overflow: hidden;
     transition: background 0.5s ease-in-out;
@@ -30,14 +31,20 @@
 
 /* Agency-specific styles */
 .toggle-slider.agency {
-    background: linear-gradient(to right, #4c1c63, #27bba5);
+    background: linear-gradient(to right, var(--secondary-color) 25% ,var(--primary-color));
+    width: 200px;
+    border-radius: 30px;
     left: 0;
 }
 
 /* Individual-specific styles */
 .toggle-slider.individual {
-    background: linear-gradient(to left, #27bba5, #4c1c63);
+    background: linear-gradient(to left,var(--secondary-color) ,var(--primary-color));
+    width: 150px;
+    width: 200px;
+    border-radius: 30px;
     right: 0;
+    margin: 0;
 }
 
 /* Background text styling */
@@ -47,17 +54,19 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 20px;
-    color: #7c6999;
+    color: var(--secondary-color);
     font-weight: bold;
     font-size: 16px;
 }
 
 .background-label {
     transition: color 0.3s ease-in-out; /* Smooth fade for text color */
+    padding-inline: 0px;
+    font-size: 18px;
 }
 
 .background-label.inactive {
-    color: #ccc;
+    color: #ffffff;
 }

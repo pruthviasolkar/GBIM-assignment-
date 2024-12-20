@@ -45,3 +45,90 @@
     margin-top: 5px;
     margin-left: 5px;
 }
+.switchtoggle{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+
+
+.planbtns{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+
+
+.btnplan1{
+    background-color: transparent;
+   font-size: 14px;
+   padding-inline: 45px;
+   padding-block: 15px;
+   border: 1px solid rgb(156, 156, 156) ;
+   border-radius: 10px;
+   color: var(--secondary-color);
+   font-weight: bolder;
+   cursor: pointer;
+}
+.btnplan2{
+    background-color: transparent;
+   font-size: 14px;
+   padding-inline: 30px;
+   padding-block: 15px;
+   border: 1px solid rgb(156, 156, 156) ;
+   border-radius: 10px;
+   color: var(--secondary-color);
+   font-weight: bolder;
+   cursor: pointer;
+}
+.btnplan3{
+    background-color: transparent;
+   font-size: 14px;
+   padding-inline: 30px;
+   padding-block: 15px;
+   border: 1px solid var(--secondary-color) ;
+   border-radius: 10px;
+   color: var(--secondary-color);
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+
+.btnplan2:hover,.btnplan3:hover{
+    background-color: var(--secondary-color);
+   font-size: 14px;
+   padding-inline: 30px;
+   padding-block: 15px;
+   border: 1px solid var(--secondary-color) ;
+   border-radius: 10px;
+   color: #ffffff;
+   font-weight: bolder;
+   transition: all 0.3s ease;
+}
+.btnplan2.active{
+    background-color: var(--secondary-color);
+   font-size: 14px;
+   padding-inline: 30px;
+   padding-block: 15px;
+   border: 1px solid var(--secondary-color) ;
+   border-radius: 10px;
+   color: #ffffff;
+   font-weight: bolder;
+   transition: all 0.3s ease;
+}
+
+
+.btnplan1:hover{
+    background-color: var(--secondary-color);
+   font-size: 14px;
+   padding-inline: 45px;
+   padding-block: 15px;
+   border: 1px solid var(--secondary-color) ;
+   border-radius: 10px;
+   color: #ffffff;
+   font-weight: bolder;
+   transition: all 0.3s ease;
+}
