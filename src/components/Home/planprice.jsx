@@ -11,7 +11,7 @@ const Planprice = () => {
             </div>
             <div className='headagency'>
             <div><h2>Are you an <span>Agency?</span></h2></div>
-            <div className='agencysubtxt'><img  className="rocketimg"src="/src/assets/Group 24063.svg" alt="" /><p>Then This plan fits you <span>perfectly!</span></p><img  className="shineimg"src="/src/assets/shines (1).svg" alt="" /></div>
+            <div className='agencysubtxt'><img  className="rocketimg"src="/public/assets/Group 24063.svg" alt="" /><p>Then This plan fits you <span>perfectly!</span></p><img  className="shineimg"src="/public/assets/shines (1).svg" alt="" /></div>
             </div>
             <ToggleSwitch/>
         </div>

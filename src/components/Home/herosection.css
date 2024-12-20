@@ -1,5 +1,5 @@
 .herosection{
-    background-image: url("/src/assets/dmc.png");
+    background-image: url("/public/assets/dmc.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: none;
@@ -142,7 +142,7 @@ font-weight: bold;
   @media screen and (max-width: 600px) {
     
     .herosection{
-        background-image: url("/src/assets/dmc.png");
+        background-image: url("/public/assets/dmc.png");
         background-repeat: no-repeat;
         background-size: cover;
         border: none;

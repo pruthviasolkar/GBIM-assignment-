@@ -1,5 +1,5 @@
 .headandbtn{
-    background-image: url("/src/assets/intersection 33.png");
+    background-image: url("/public/assets/intersection 33.png");
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 
 }
 .mainfeatures{
-    background-image: url("/src/assets/Layer 1.png");
+    background-image: url("/public/assets/Layer 1.png");
     background-size: contain;
     background-position: right;
     background-position-x: 550px;
