@@ -171,11 +171,11 @@
     padding-inline: 30px;
     padding-block: 40px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    margin-block: 50px;
+    margin-block: 0px;
     margin-inline: 75px;
     border-radius: 25px;
     position: relative;
-    top: -130px;
+     margin-top: -80px;
     z-index: 1;
     justify-content: space-between;
 }
@@ -226,11 +226,12 @@
     width: 52%;
     position: relative;
     left: -45vh;
+    z-index: 0;
 }
 .dotimg2{
     width: 52%;
      position: relative;
      left: 160vh;
-     top: -205px;
+    margin-top: -10px;
      z-index: 0;
 }

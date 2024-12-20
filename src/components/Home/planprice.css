@@ -1,0 +1,47 @@
+.headplan{
+     text-align: center;
+     margin-top: 100px;
+}
+.headplan h2{
+    font-size: 45px;
+    margin-bottom: 0;
+    color: var(--secondary-color);
+}
+.headplan p{
+    color: var(--secondary-color);
+    margin-top: 5px;
+}
+.headagency{
+    text-align: center;
+}
+.headagency h2{
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+.headagency span{
+    color: var(--primary-color);
+}
+.agencysubtxt{
+    display: flex;
+    justify-content: center;
+}
+.agencysubtxt span{
+    color: #faa339;
+    font-weight: 900;
+}
+.agencysubtxt p{
+    font-size: 23px;
+    margin-top: 0;
+    font-weight: 500;
+}
+.rocketimg{
+    width: 80px;
+}
+.shineimg{
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
+}
