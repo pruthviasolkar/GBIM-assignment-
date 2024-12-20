@@ -148,6 +148,7 @@
 .planlist{
     display: flex;
     margin: 40px;
+    margin-top: 60px;
     justify-content: center;
     gap: 30px;
     
